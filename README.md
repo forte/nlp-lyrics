@@ -2,7 +2,9 @@
 
 ## Goal
 
-<b>*Developing a system that can predict the genre of a song by solely looking at its lyrics.*</b> <br>
+<b>*Developing a system that can predict the genre of a song by solely looking at its lyrics.*</b> 
+<br>
+<br>
 Such a system would offer insight into: 
 - The homogeneity of songs across a genre 
 - Surprising similarities between genres
