@@ -2,7 +2,7 @@
 
 ## Goal
 
-*Developing a system that can predict the genre of a song by solely looking at its lyrics.*
+<b>*Developing a system that can predict the genre of a song by solely looking at its lyrics.*</b> <br>
 Such a system would offer insight into: 
 - The homogeneity of songs across a genre 
 - Surprising similarities between genres
@@ -21,12 +21,12 @@ Motivation:
 - Minimum length lyrics
 - Only songs that are English
 
-### Lyrics to remove:
-- Things that signify chorus, verse, etc...
+### Lyrics alterations:
+- Remove hings that signify chorus, verse, etc...
   - Typically these are in [] but can also be in (), {}
   - This can be problematic because valuable lyrics can also be present in (), but it is best to play it safe and remove these things.
-- Sung noises (‘laaa’, ‘oooo’, 'ahhhhh')
-- Lemmatization using nltk library
+- Remove ung noises (‘laaa’, ‘oooo’, 'ahhhhh')
+- Leveraging lemmatization using the nltk library
 - Extending from the nltk library’s stopword list to include slang / mispelled words
 
 
@@ -123,7 +123,7 @@ Complete accuracy: 0.656877529963
 LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True, intercept_scaling=1, loss='squared_hinge', max_iter=1000, multi_class='ovr', penalty='l2', random_state=None, tol=0.0001, verbose=0)
 ```
 
-**Trial 1:**  
+**Trial 1:**
 n-grams: (1, 3)
 min frequency: 2
 Features shape: (50393, 1301348)
