@@ -24,12 +24,12 @@ Motivation:
 - Only songs that are English
 
 ### Lyrics alterations:
-- Remove hings that signify chorus, verse, etc...
+- Remove things that signify chorus, verse, etc...
   - Typically these are in [] but can also be in (), {}
   - This can be problematic because valuable lyrics can also be present in (), but it is best to play it safe and remove these things.
-- Remove ung noises (‘laaa’, ‘oooo’, 'ahhhhh')
+- Remove sung noises (‘laaa’, ‘oooo’, 'ahhhhh')
 - Leveraging lemmatization using the nltk library
-- Extending from the nltk library’s stopword list to include slang / mispelled words
+- Extending from the nltk library’s stopword list to include slang / misspelled words
 
 
 ## About the Data
